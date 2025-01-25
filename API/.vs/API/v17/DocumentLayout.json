@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\unittests\\handlers\\product\\query\\getproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\product\\query\\getproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\features\\product\\queries\\getproduct\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\queries\\getproduct\\getproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\features\\product\\queries\\getproduct\\getproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\queries\\getproduct\\getproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\unittests\\handlers\\product\\command\\createproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\product\\command\\createproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\features\\product\\commands\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\features\\product\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\unittests\\mockdata\\product\\createproducthandler\\createproducthandlermockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\mockdata\\product\\createproducthandler\\createproducthandlermockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\unittests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetProductQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Queries\\GetProduct\\GetProductQuery.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Queries\\GetProduct\\GetProductQuery.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Queries\\GetProduct\\GetProductQuery.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Queries\\GetProduct\\GetProductQuery.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T18:33:27.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\Handlers\\Product\\Query\\GetProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Product\\Query\\GetProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\Handlers\\Product\\Query\\GetProductHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Product\\Query\\GetProductHandlerTests.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAA2wDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T18:17:12.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Queries\\GetProduct\\GetProductHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Queries\\GetProduct\\GetProductHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Queries\\GetProduct\\GetProductHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Queries\\GetProduct\\GetProductHandler.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T18:24:36.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwDcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:40:41.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAA6wEkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:06:45.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvy8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:07:11.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProductHandlerMockData.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "RelativeDocumentMoniker": "UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "RelativeToolTip": "UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:52:52.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\Usings.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Usings.cs",
+              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\Usings.cs",
+              "RelativeToolTip": "UnitTests\\Usings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:04:07.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
