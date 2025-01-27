@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Controllers.AuthController.RegisterAsync(Business.Dtos.Auth.AuthRegisterDto)">
+            <summary>
+            Istifadecinin qeydiyyatdan kecmesi
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:Presentation.Controllers.AuthController.LoginAsync(Business.Dtos.Auth.AuthLoginDto)">
+            <summary>
+            Istifadecinin daxil olmasi
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.GetAllProductAsync">
+            <summary>
+            Mehsullarin siyahisi
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.GetProductAsync(System.Int32)">
+            <summary>
+            Mehsulu id-sine gore goturmek ucun
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.CreateProductAsync(Business.Features.Product.Commands.CreateProduct.CreateProductCommand)">
+            <summary>
+            Mehsulu yaratmaq ucun
+            </summary>
+            <remarks>
+            <ul>
+            <li><b>Type:</b><p>0-New,1-Sold</p></li>
+            </ul>
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.UpdateProductAsync(System.Int32,Business.Features.Product.Commands.UpdateProduct.UpdateProductCommand)">
+            <summary>
+            Mehsulun yenilenmesi
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.ProductController.DeleteProductAsync(System.Int32)">
+            <summary>
+            Mehsulun silinmesi
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Presentation.Controllers.RoleController.GetAllRolesAsync">
+            <summary>
+            Rollarin siyahisi
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.GetAllUsersAsync">
+            <summary>
+            Istifadecilerin siyahisi
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.UserRoleController.AddRoleToUserAsync(Business.Dtos.UserRole.UserAddToRoleDto)">
+            <summary>
+            Istifadeciye rol elave olunmasi
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="M:Presentation.Controllers.UserRoleController.RemoveRoleFromUserAsync(Business.Dtos.UserRole.UserRemoveRoleDto)">
+            <summary>
+            Istifadeciden rolun silinmesi
+            </summary>
+            <param name="model"></param>
+        </member>
+    </members>
+</doc>
