@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7dg9x2FtDFzy7j8J4i/IoNDc7fv5CaUeURQSU869913kk8eFvZN6+YOP702gdb8/rgUzF389eg4FLbk9fOtUQ==",
+  "dgSpecHash": "vltP/82QjaMwojFxiLGBc5XcO/QoOGkSTotPRCtgTMpD0qJwZ3MH0A+wPSU2RmFY6Z53gvNKA7fMETNuuzPWug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darya\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Darya\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

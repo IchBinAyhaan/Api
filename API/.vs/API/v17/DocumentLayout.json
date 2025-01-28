@@ -1,26 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\",
+  "WorkspaceRootPath": "C:\\Users\\Darya\\AyhanApi\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\features\\user\\queries\\getallusers\\getallusershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\user\\queries\\getallusers\\getallusershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\product\\command\\updateproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\product\\command\\updateproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\features\\userrole\\commands\\userremoverole\\userremoverolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\auth\\authregisterhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\auth\\authregisterhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\auth\\commands\\authregister\\authregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\auth\\commands\\authregister\\authregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\auth\\authloginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\auth\\authloginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\auth\\commands\\authlogin\\authloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\auth\\commands\\authlogin\\authloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\role\\command\\userremoveroletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\role\\command\\userremoveroletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\userrole\\commands\\userremoverole\\userremoverolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\userrole\\commands\\userremoverole\\userremoverolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\services\\concrete\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\services\\concrete\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\product\\command\\deleteproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\product\\command\\deleteproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\desktop\\ayhan13\\api\\business\\services\\concrete\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\services\\concrete\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\product\\command\\createproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\product\\command\\createproducthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\userrole\\commands\\useraddtorole\\useraddtorolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\userrole\\commands\\useraddtorole\\useraddtorolehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\product\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\role\\command\\useraddtoroletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\role\\command\\useraddtoroletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFE3C94-CA51-4B71-84A8-6013B5E25590}|Common\\Common.csproj|c:\\users\\darya\\ayhanapi\\api\\common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFE3C94-CA51-4B71-84A8-6013B5E25590}|Common\\Common.csproj|solutionrelative:common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFE3C94-CA51-4B71-84A8-6013B5E25590}|Common\\Common.csproj|c:\\users\\darya\\ayhanapi\\api\\common\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFE3C94-CA51-4B71-84A8-6013B5E25590}|Common\\Common.csproj|solutionrelative:common\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFE3C94-CA51-4B71-84A8-6013B5E25590}|Common\\Common.csproj|c:\\users\\darya\\ayhanapi\\api\\common\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFE3C94-CA51-4B71-84A8-6013B5E25590}|Common\\Common.csproj|solutionrelative:common\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\product\\commands\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\mockdata\\product\\createproducthandler\\createproducthandlermockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\mockdata\\product\\createproducthandler\\createproducthandlermockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\product\\commands\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\mappingprofiles\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\userrole\\commands\\userremoverole\\userremoverolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\userrole\\commands\\userremoverole\\userremoverolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\userrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\mappingprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\mappingprofiles\\rolemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\rolemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\mappingprofiles\\userrolemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\mappingprofiles\\userrolemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\auth\\dtos\\responsetokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\auth\\dtos\\responsetokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\role\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\role\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\auth\\commands\\authlogin\\authlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\auth\\commands\\authlogin\\authlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\user\\queries\\getallusers\\getallusershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\user\\queries\\getallusers\\getallusershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,68 +158,457 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllUsersHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
-              "RelativeDocumentMoniker": "Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
-              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
-              "RelativeToolTip": "Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "AuthRegisterHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Commands\\AuthRegister\\AuthRegisterHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Auth\\Commands\\AuthRegister\\AuthRegisterHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Commands\\AuthRegister\\AuthRegisterHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Auth\\Commands\\AuthRegister\\AuthRegisterHandler.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T17:38:57.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Services\\Concrete\\UserService.cs",
-              "RelativeDocumentMoniker": "Business\\Services\\Concrete\\UserService.cs",
-              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Services\\Concrete\\UserService.cs",
-              "RelativeToolTip": "Business\\Services\\Concrete\\UserService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T17:38:50.511Z",
+              "WhenOpened": "2025-01-28T22:07:04.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AuthRegisterHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T22:06:59.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthLoginHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAD4vxUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T22:02:34.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:35:55.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAvwF8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:35:49.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRemoveRoleTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Role\\Command\\UserRemoveRoleTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Role\\Command\\UserRemoveRoleTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Role\\Command\\UserRemoveRoleTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Role\\Command\\UserRemoveRoleTests.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwHYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:51:04.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthLoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:11:32.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\appsettings.json",
+              "RelativeToolTip": "Presentation\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T18:12:06.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwCsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:22:10.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserRemoveRoleHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
               "RelativeDocumentMoniker": "Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
-              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
               "RelativeToolTip": "Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwDEAAAAOAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T17:38:09.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRoleService.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Services\\Concrete\\UserRoleService.cs",
-              "RelativeDocumentMoniker": "Business\\Services\\Concrete\\UserRoleService.cs",
-              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Services\\Concrete\\UserRoleService.cs",
-              "RelativeToolTip": "Business\\Services\\Concrete\\UserRoleService.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwFMAAAA7AAAA",
+              "DocumentIndex": 11,
+              "Title": "UserAddToRoleHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\UserRole\\Commands\\UserAddToRole\\UserAddToRoleHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\UserRole\\Commands\\UserAddToRole\\UserAddToRoleHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\UserRole\\Commands\\UserAddToRole\\UserAddToRoleHandler.cs",
+              "RelativeToolTip": "Business\\Features\\UserRole\\Commands\\UserAddToRole\\UserAddToRoleHandler.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwDEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T17:36:32.999Z",
+              "WhenOpened": "2025-01-28T18:34:31.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Services\\Concrete\\RoleService.cs",
-              "RelativeDocumentMoniker": "Business\\Services\\Concrete\\RoleService.cs",
-              "ToolTip": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Services\\Concrete\\RoleService.cs",
-              "RelativeToolTip": "Business\\Services\\Concrete\\RoleService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "DeleteProductHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\DeleteProductHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Product\\Command\\DeleteProductHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\DeleteProductHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\DeleteProductHandlerTests.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T17:36:28.372Z",
+              "WhenOpened": "2025-01-28T18:32:24.516Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:43:54.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserAddToRoleTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Role\\Command\\UserAddToRoleTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Role\\Command\\UserAddToRoleTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Role\\Command\\UserAddToRoleTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Role\\Command\\UserAddToRoleTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAF8AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:47:39.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Common\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Common\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:37:33.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnauthorizedException.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Exceptions\\UnauthorizedException.cs",
+              "RelativeDocumentMoniker": "Common\\Exceptions\\UnauthorizedException.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Exceptions\\UnauthorizedException.cs",
+              "RelativeToolTip": "Common\\Exceptions\\UnauthorizedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:37:41.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "Common\\Exceptions\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "Common\\Exceptions\\ValidationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:37:45.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateProductHandlerMockData.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "RelativeDocumentMoniker": "UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "RelativeToolTip": "UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:23:38.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:23:16.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteProductHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeToolTip": "Business\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:25:57.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRemoveRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleCommand.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleCommand.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleCommand.cs",
+              "RelativeToolTip": "Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:21:21.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\UserMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\UserMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\UserMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:14:54.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:43.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserRoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\UserRoleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserRoleController.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\UserRoleController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UserRoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:52.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:16.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\ProductMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:14:57.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoleMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\RoleMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\RoleMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\RoleMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\RoleMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:14:55.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRoleMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "RelativeToolTip": "Business\\MappingProfiles\\UserRoleMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:14:52.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:48.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:39.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Presentation\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\DbInitializer.cs",
+              "RelativeToolTip": "Presentation\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:04.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ResponseTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Dtos\\ResponseTokenDto.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Auth\\Dtos\\ResponseTokenDto.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Dtos\\ResponseTokenDto.cs",
+              "RelativeToolTip": "Business\\Features\\Auth\\Dtos\\ResponseTokenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:02.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Role\\Dtos\\RoleDto.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Role\\Dtos\\RoleDto.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Role\\Dtos\\RoleDto.cs",
+              "RelativeToolTip": "Business\\Features\\Role\\Dtos\\RoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:12:00.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthLoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginCommand.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginCommand.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginCommand.cs",
+              "RelativeToolTip": "Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:11:56.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetAllUsersHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
+              "RelativeDocumentMoniker": "Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
+              "RelativeToolTip": "Business\\Features\\User\\Queries\\GetAllUsers\\GetAllUsersHandler.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T17:38:57.874Z"
             }
           ]
         }

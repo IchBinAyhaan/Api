@@ -8286,11 +8286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\Darya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Darya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8307,8 +8307,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Business.csproj"
+            "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Business.csproj"
             }
           }
         }

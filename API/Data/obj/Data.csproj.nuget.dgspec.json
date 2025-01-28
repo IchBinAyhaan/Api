@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Data\\Data.csproj": {}
+    "C:\\Users\\Darya\\AyhanApi\\API\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Common\\Common.csproj": {
+    "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Darya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Data\\Data.csproj": {
+    "C:\\Users\\Darya\\AyhanApi\\API\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Darya\\AyhanApi\\API\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Darya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Darya\\AyhanApi\\API\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Common\\Common.csproj"
+              "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\Common\\Common.csproj"
               }
             }
           }

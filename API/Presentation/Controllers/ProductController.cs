@@ -4,7 +4,7 @@ using Business.Features.Product.Commands.UpdateProduct;
 using Business.Features.Product.Dtos;
 using Business.Features.Product.Queries.GetAllProducts;
 using Business.Features.Product.Queries.GetProduct;
-using Business.Services.Abstract;
+
 using Business.Wrappers;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

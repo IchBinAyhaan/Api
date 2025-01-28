@@ -1,8 +1,8 @@
-﻿using Business.Dtos.Auth;
+﻿
 using Business.Features.Auth.Commands.AuthLogin;
 using Business.Features.Auth.Commands.AuthRegister;
 using Business.Features.Auth.Dtos;
-using Business.Services.Abstract;
+
 using Business.Wrappers;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -41,7 +41,7 @@ namespace Presentation.Controllers
         /// Istifadecinin daxil olmasi
         /// </summary>
         /// <param name="model"></param>
-        [ProducesResponseType(typeof(Response<AuthLoginResponseDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Response<ResponseTokenDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Response), StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(typeof(Response), StatusCodes.Status500InternalServerError)]
         #endregion

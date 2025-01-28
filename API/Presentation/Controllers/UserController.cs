@@ -1,7 +1,6 @@
 ﻿
 using Business.Features.User.Dtos;
 using Business.Features.User.Queries.GetAllUsers;
-using Business.Services.Abstract;
 using Business.Wrappers;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

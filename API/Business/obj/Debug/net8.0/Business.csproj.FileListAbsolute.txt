@@ -16,3 +16,12 @@ C:\Users\Darya\Desktop\Ayhan13\API\Business\obj\Debug\net8.0\Business.dll
 C:\Users\Darya\Desktop\Ayhan13\API\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\Darya\Desktop\Ayhan13\API\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\Darya\Desktop\Ayhan13\API\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.sourcelink.json
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Darya\AyhanApi\API\Business\obj\Debug\net8.0\Business.pdb

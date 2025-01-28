@@ -4500,11 +4500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Presentation\\Presentation.csproj",
+      "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\Darya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Presentation\\obj\\",
+      "outputPath": "C:\\Users\\Darya\\AyhanApi\\API\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Darya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4521,8 +4521,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Darya\\Desktop\\Ayhan13\\API\\Business\\Business.csproj"
+            "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Darya\\AyhanApi\\API\\Business\\Business.csproj"
             }
           }
         }

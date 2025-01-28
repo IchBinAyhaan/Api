@@ -1,7 +1,6 @@
 ﻿
 using Business.Features.Role.Dtos;
 using Business.Features.Role.Queries.GetAllRoles;
-using Business.Services.Abstract;
 using Business.Wrappers;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
