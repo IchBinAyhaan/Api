@@ -12,7 +12,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTests.Handlers.Auth
+namespace UnitTests.Handlers.Auth.Command
 {
     public class AuthLoginHandlerTests
     {
@@ -40,11 +40,11 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenUserNotFound_ShouldThrowUnauthorizedException()
         {
-           
+
             var command = new AuthLoginCommand { Email = "test@example.com", Password = "Password123" };
             _mockUserManager.Setup(x => x.FindByEmailAsync(command.Email)).ReturnsAsync((Common.Entities.User)null);
 
-           
+
             var exception = await Assert.ThrowsAsync<UnauthorizedException>(() => _handler.Handle(command, CancellationToken.None));
             Assert.Contains("Email ve ya sifre yanlisdir", exception.Errors);
         }
@@ -52,14 +52,14 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenPasswordIsIncorrect_ShouldThrowUnauthorizedException()
         {
-           
+
             var command = new AuthLoginCommand { Email = "test@example.com", Password = "WrongPassword" };
             var user = new Common.Entities.User { Id = "1", Email = "test@example.com" };
 
             _mockUserManager.Setup(x => x.FindByEmailAsync(command.Email)).ReturnsAsync(user);
             _mockUserManager.Setup(x => x.CheckPasswordAsync(user, command.Password)).ReturnsAsync(false);
 
-            
+
             var exception = await Assert.ThrowsAsync<UnauthorizedException>(() => _handler.Handle(command, CancellationToken.None));
             Assert.Contains("Email ve ya sifre yanlisdir", exception.Errors);
         }
@@ -67,7 +67,7 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenLoginSuccessful_ShouldReturnToken()
         {
-           
+
             var command = new AuthLoginCommand { Email = "test@example.com", Password = "Password123" };
             var user = new Common.Entities.User { Id = "1", Email = "test@example.com" };
             var roles = new List<string> { "Admin", "User" };
@@ -79,10 +79,10 @@ namespace UnitTests.Handlers.Auth
             _mockConfiguration.Setup(x => x["JWT:Issuer"]).Returns("https://localhost:7060/");
             _mockConfiguration.Setup(x => x["JWT:Audience"]).Returns("https://localhost:7060/");
 
-          
+
             var result = await _handler.Handle(command, CancellationToken.None);
 
-         
+
             Assert.NotNull(result);
             Assert.NotNull(result.Data.Token);
             var tokenHandler = new JwtSecurityTokenHandler();

@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\product\\commands\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\auth\\authregisterhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\auth\\authregisterhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\auth\\command\\authregisterhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\auth\\command\\authregisterhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|c:\\users\\darya\\ayhanapi\\api\\business\\features\\auth\\commands\\authregister\\authregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7D5EB4C-BBD9-4373-B0B6-E4AA79308CF1}|Business\\Business.csproj|solutionrelative:business\\features\\auth\\commands\\authregister\\authregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\auth\\authloginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\auth\\authloginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|c:\\users\\darya\\ayhanapi\\api\\unittests\\handlers\\auth\\command\\authloginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE04FC2-C200-4A50-A23E-63626BCE607D}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\handlers\\auth\\command\\authloginhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34DC54B2-8C13-4CA7-AECE-FCC23317964E}|Presentation\\Presentation.csproj|c:\\users\\darya\\ayhanapi\\api\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -166,17 +166,16 @@
               "RelativeToolTip": "Business\\Features\\Auth\\Commands\\AuthRegister\\AuthRegisterHandler.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAYwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T22:07:04.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T22:07:04.297Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuthRegisterHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
-              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
-              "RelativeToolTip": "UnitTests\\Handlers\\Auth\\AuthRegisterHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\Command\\AuthRegisterHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Auth\\Command\\AuthRegisterHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\Command\\AuthRegisterHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Auth\\Command\\AuthRegisterHandlerTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T22:06:59.754Z",
@@ -186,10 +185,10 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AuthLoginHandlerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
-              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
-              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
-              "RelativeToolTip": "UnitTests\\Handlers\\Auth\\AuthLoginHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\Command\\AuthLoginHandlerTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Handlers\\Auth\\Command\\AuthLoginHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Auth\\Command\\AuthLoginHandlerTests.cs",
+              "RelativeToolTip": "UnitTests\\Handlers\\Auth\\Command\\AuthLoginHandlerTests.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAD4vxUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T22:02:34.02Z",
@@ -205,8 +204,7 @@
               "RelativeToolTip": "Business\\Features\\Product\\Commands\\UpdateProduct\\UpdateProductHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:35:55.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:35:55.62Z"
             },
             {
               "$type": "Document",
@@ -216,7 +214,7 @@
               "RelativeDocumentMoniker": "UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
               "ToolTip": "C:\\Users\\Darya\\AyhanApi\\API\\UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
               "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\UpdateProductHandlerTests.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAvwF8AAAAMAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAvwGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T18:35:49.637Z",
               "EditorCaption": ""
@@ -231,8 +229,7 @@
               "RelativeToolTip": "UnitTests\\Handlers\\Role\\Command\\UserRemoveRoleTests.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAwHYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:51:04.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T21:51:04.895Z"
             },
             {
               "$type": "Document",
@@ -244,8 +241,7 @@
               "RelativeToolTip": "Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginHandler.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:11:32.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:11:32.475Z"
             },
             {
               "$type": "Document",
@@ -257,8 +253,7 @@
               "RelativeToolTip": "Presentation\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-28T18:12:06.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:06.984Z"
             },
             {
               "$type": "Document",
@@ -270,8 +265,7 @@
               "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\CreateProductHandlerTests.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAgwCsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:22:10.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:22:10.028Z"
             },
             {
               "$type": "Document",
@@ -283,8 +277,7 @@
               "RelativeToolTip": "Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleHandler.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAiwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T17:38:09.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T17:38:09.344Z"
             },
             {
               "$type": "Document",
@@ -296,8 +289,7 @@
               "RelativeToolTip": "Business\\Features\\UserRole\\Commands\\UserAddToRole\\UserAddToRoleHandler.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAwDEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:34:31.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:34:31.404Z"
             },
             {
               "$type": "Document",
@@ -309,8 +301,7 @@
               "RelativeToolTip": "UnitTests\\Handlers\\Product\\Command\\DeleteProductHandlerTests.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAYwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:32:24.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:32:24.516Z"
             },
             {
               "$type": "Document",
@@ -322,8 +313,7 @@
               "RelativeToolTip": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:43:54.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T21:43:54.008Z"
             },
             {
               "$type": "Document",
@@ -335,8 +325,7 @@
               "RelativeToolTip": "UnitTests\\Handlers\\Role\\Command\\UserAddToRoleTests.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAF8AAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:47:39.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T21:47:39.038Z"
             },
             {
               "$type": "Document",
@@ -348,8 +337,7 @@
               "RelativeToolTip": "Common\\Exceptions\\NotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:37:33.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:37:33.996Z"
             },
             {
               "$type": "Document",
@@ -361,8 +349,7 @@
               "RelativeToolTip": "Common\\Exceptions\\UnauthorizedException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:37:41.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:37:41.027Z"
             },
             {
               "$type": "Document",
@@ -374,8 +361,7 @@
               "RelativeToolTip": "Common\\Exceptions\\ValidationException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:37:45.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:37:45.884Z"
             },
             {
               "$type": "Document",
@@ -387,8 +373,7 @@
               "RelativeToolTip": "UnitTests\\MockData\\Product\\CreateProductHandler\\CreateProductHandlerMockData.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:23:38.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:23:38.737Z"
             },
             {
               "$type": "Document",
@@ -400,8 +385,7 @@
               "RelativeToolTip": "Business\\Features\\Product\\Commands\\CreateProduct\\CreateProductHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:23:16.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:23:16.965Z"
             },
             {
               "$type": "Document",
@@ -413,8 +397,7 @@
               "RelativeToolTip": "Business\\Features\\Product\\Commands\\DeleteProduct\\DeleteProductHandler.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:25:57.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:25:57.611Z"
             },
             {
               "$type": "Document",
@@ -426,8 +409,7 @@
               "RelativeToolTip": "Business\\Features\\UserRole\\Commands\\UserRemoveRole\\UserRemoveRoleCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:21:21.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:21:21.726Z"
             },
             {
               "$type": "Document",
@@ -439,8 +421,7 @@
               "RelativeToolTip": "Business\\MappingProfiles\\UserMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:14:54.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:14:54.913Z"
             },
             {
               "$type": "Document",
@@ -452,8 +433,7 @@
               "RelativeToolTip": "Presentation\\Controllers\\RoleController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:43.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:43.884Z"
             },
             {
               "$type": "Document",
@@ -465,8 +445,7 @@
               "RelativeToolTip": "Presentation\\Controllers\\UserRoleController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:52.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:52.051Z"
             },
             {
               "$type": "Document",
@@ -478,8 +457,7 @@
               "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:16.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:16.744Z"
             },
             {
               "$type": "Document",
@@ -491,8 +469,7 @@
               "RelativeToolTip": "Business\\MappingProfiles\\ProductMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:14:57.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:14:57.071Z"
             },
             {
               "$type": "Document",
@@ -504,8 +481,7 @@
               "RelativeToolTip": "Business\\MappingProfiles\\RoleMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:14:55.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:14:55.871Z"
             },
             {
               "$type": "Document",
@@ -517,8 +493,7 @@
               "RelativeToolTip": "Business\\MappingProfiles\\UserRoleMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:14:52.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:14:52.408Z"
             },
             {
               "$type": "Document",
@@ -530,8 +505,7 @@
               "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:48.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:48.719Z"
             },
             {
               "$type": "Document",
@@ -543,8 +517,7 @@
               "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:39.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:39.197Z"
             },
             {
               "$type": "Document",
@@ -556,8 +529,7 @@
               "RelativeToolTip": "Presentation\\DbInitializer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:04.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:04.555Z"
             },
             {
               "$type": "Document",
@@ -569,8 +541,7 @@
               "RelativeToolTip": "Business\\Features\\Auth\\Dtos\\ResponseTokenDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:02.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:02.035Z"
             },
             {
               "$type": "Document",
@@ -582,8 +553,7 @@
               "RelativeToolTip": "Business\\Features\\Role\\Dtos\\RoleDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:12:00.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:12:00.316Z"
             },
             {
               "$type": "Document",
@@ -595,8 +565,7 @@
               "RelativeToolTip": "Business\\Features\\Auth\\Commands\\AuthLogin\\AuthLoginCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:11:56.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:11:56.659Z"
             },
             {
               "$type": "Document",

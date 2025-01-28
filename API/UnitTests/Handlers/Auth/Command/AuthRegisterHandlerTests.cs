@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTests.Handlers.Auth
+namespace UnitTests.Handlers.Auth.Command
 {
     public class AuthRegisterHandlerTests
     {
@@ -31,7 +31,7 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenValidationFails_ShouldThrowValidationException()
         {
-            
+
             var command = new AuthRegisterCommand { Email = "test@example.com", Password = "Password123" };
 
             var validationResult = new FluentValidation.Results.ValidationResult(new[] { new FluentValidation.Results.ValidationFailure("Email", "Invalid email") });
@@ -40,7 +40,7 @@ namespace UnitTests.Handlers.Auth
             validatorMock.Setup(x => x.ValidateAsync(command, It.IsAny<CancellationToken>())).ReturnsAsync(validationResult);
             _handler = new AuthRegisterHandler(_mockUserManager.Object, _mockMapper.Object);
 
-           
+
             var exception = await Assert.ThrowsAsync<ValidationException>(() => _handler.Handle(command, CancellationToken.None));
             Assert.Contains("Invalid email", exception.Errors);
         }
@@ -48,13 +48,13 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenEmailAlreadyExists_ShouldThrowValidationException()
         {
-         
+
             var command = new AuthRegisterCommand { Email = "test@example.com", Password = "Password123" };
 
             var existingUser = new Common.Entities.User { Email = "test@example.com" };
             _mockUserManager.Setup(x => x.FindByEmailAsync(command.Email)).ReturnsAsync(existingUser);
 
-           
+
             var exception = await Assert.ThrowsAsync<ValidationException>(() => _handler.Handle(command, CancellationToken.None));
             Assert.Contains("Email already exists.", exception.Errors);
         }
@@ -62,7 +62,7 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenUserCreationFails_ShouldThrowValidationException()
         {
-          
+
             var command = new AuthRegisterCommand { Email = "test@example.com", Password = "Password123" };
 
             var user = new Common.Entities.User { Email = command.Email };
@@ -72,7 +72,7 @@ namespace UnitTests.Handlers.Auth
             var createResult = IdentityResult.Failed(new IdentityError { Description = "Error creating user" });
             _mockUserManager.Setup(x => x.CreateAsync(user, command.Password)).ReturnsAsync(createResult);
 
-            
+
             var exception = await Assert.ThrowsAsync<ValidationException>(() => _handler.Handle(command, CancellationToken.None));
             Assert.Contains("Error creating user", exception.Errors);
         }
@@ -80,7 +80,7 @@ namespace UnitTests.Handlers.Auth
         [Fact]
         public async Task Handle_WhenUserCreatedSuccessfully_ShouldReturnSuccessMessage()
         {
-           
+
             var command = new AuthRegisterCommand { Email = "test@example.com", Password = "Password123" };
 
             var user = new Common.Entities.User { Email = command.Email };
@@ -93,10 +93,10 @@ namespace UnitTests.Handlers.Auth
             var addToRoleResult = IdentityResult.Success;
             _mockUserManager.Setup(x => x.AddToRoleAsync(user, UserRoles.User.ToString())).ReturnsAsync(addToRoleResult);
 
-           
+
             var result = await _handler.Handle(command, CancellationToken.None);
 
-            
+
             Assert.Equal("Istifadeci ugurla elave edildi", result.Message);
         }
     }
