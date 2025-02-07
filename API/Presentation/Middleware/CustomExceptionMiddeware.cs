@@ -7,9 +7,11 @@ namespace Presentation.Middleware
     public class CustomExceptionMiddeware
     {
         private readonly RequestDelegate next;
-        public CustomExceptionMiddeware(RequestDelegate requestDelegate)
+        private readonly ILogger<CustomExceptionMiddeware> _logger;
+        public CustomExceptionMiddeware(RequestDelegate requestDelegate, ILogger<CustomExceptionMiddeware> logger)
         {
             next = requestDelegate;
+            _logger = logger;
         }
         public async Task InvokeAsync(HttpContext context)
         {
@@ -35,8 +37,7 @@ namespace Presentation.Middleware
                             response.Errors = ex.Errors;
                         break;
                     default:
-                        Console.WriteLine(e.InnerException);
-                        Console.WriteLine(e.Message);
+                        _logger.LogError($"Message {e.Message} Inner Exception: {e.InnerException}");
 
                         context.Response.StatusCode = StatusCodes.Status500InternalServerError;
                         response.Message = "Xeta bas verdi";

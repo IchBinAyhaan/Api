@@ -1,7 +1,6 @@
 using Business.Extensions;
 using Business.MappingProfiles;
-using Business.Services.Abstract;
-using Business.Services.Concrete;
+using Business.Servicer.Producer;
 using Common.Entities;
 using Data.Contexts;
 using Data.Repositories.Product;
@@ -13,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Presentation;
 using Presentation.Middleware;
+using Serilog;
 using System.Text;
 
 
@@ -56,6 +56,23 @@ builder.Services.AddSwaggerGen(x =>
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("Data")));
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "MyAllowSpecificOrigins",
+                      builder =>
+                      {
+                          builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                      });
+});
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 // Adding Authentication
 builder.Services.AddAuthentication(options => {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -86,29 +103,37 @@ builder.Services.AddAutoMapper(x =>
 });
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddApplicationExtensions();
+Log.Logger = new LoggerConfiguration()
+            .ReadFrom.Configuration(builder.Configuration)
+            .CreateLogger();
+
+builder.Services.AddSerilog();
+builder.Services.AddScoped<IProducerService, ProducerService>();
 builder.Services.AddScoped<IProductReadRepository, ProductReadRepository>();
 builder.Services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
 
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IUserService, UserService>();
 
-builder.Services.AddScoped<IRoleService, RoleService>();
-
-builder.Services.AddScoped<IUserRoleService, UserRoleService>();
 
 
 
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+using(var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await  dbContext.Database.MigrateAsync();
 }
 
+app.UseCors("MyAllowSpecificOrigins");
+app.UseSwagger();
+app.UseSwaggerUI();
+
+
 app.UseHttpsRedirection();
+app.UseCors(builder =>
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader());
 
 app.UseAuthorization();
 

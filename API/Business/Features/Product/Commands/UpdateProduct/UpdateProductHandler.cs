@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Business.Servicer.Producer;
 using Business.Wrappers;
 using Common.Exceptions;
 using Data.Repositories.Product;
@@ -18,16 +19,19 @@ namespace Business.Features.Product.Commands.UpdateProduct
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly IProducerService _producerService;
 
         public UpdateProductHandler(IProductReadRepository productReadRepository,
                                     IProductWriteRepository productWriteRepository,
                                     IUnitOfWork unitOfWork,
-                                    IMapper mapper)
+                                    IMapper mapper,
+                                    IProducerService producerService)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _producerService = producerService;
         }
         public async Task<Response> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
@@ -44,6 +48,7 @@ namespace Business.Features.Product.Commands.UpdateProduct
             _productWriteRepository.Update(product);
             await _unitOfWork.CommitAsync();
 
+            await _producerService.ProduceAsync("Update", product);
             return new Response
             {
                 Message = "Mehsul ugurla yenilendi"

@@ -4,13 +4,13 @@
         <name>Presentation</name>
     </assembly>
     <members>
-        <member name="M:Presentation.Controllers.AuthController.RegisterAsync(Business.Dtos.Auth.AuthRegisterDto)">
+        <member name="M:Presentation.Controllers.AuthController.RegisterAsync(Business.Features.Auth.Commands.AuthRegister.AuthRegisterCommand)">
             <summary>
             Istifadecinin qeydiyyatdan kecmesi
             </summary>
             <param name="model"></param>
         </member>
-        <member name="M:Presentation.Controllers.AuthController.LoginAsync(Business.Dtos.Auth.AuthLoginDto)">
+        <member name="M:Presentation.Controllers.AuthController.LoginAsync(Business.Features.Auth.Commands.AuthLogin.AuthLoginCommand)">
             <summary>
             Istifadecinin daxil olmasi
             </summary>
@@ -65,13 +65,13 @@
             Istifadecilerin siyahisi
             </summary>
         </member>
-        <member name="M:Presentation.Controllers.UserRoleController.AddRoleToUserAsync(Business.Dtos.UserRole.UserAddToRoleDto)">
+        <member name="M:Presentation.Controllers.UserRoleController.AddRoleToUserAsync(Business.Features.UserRole.Commands.UserAddToRole.UserAddToRoleCommand)">
             <summary>
             Istifadeciye rol elave olunmasi
             </summary>
             <param name="model"></param>
         </member>
-        <member name="M:Presentation.Controllers.UserRoleController.RemoveRoleFromUserAsync(Business.Dtos.UserRole.UserRemoveRoleDto)">
+        <member name="M:Presentation.Controllers.UserRoleController.RemoveRoleFromUserAsync(Business.Features.UserRole.Commands.UserRemoveRole.UserRemoveRoleCommand)">
             <summary>
             Istifadeciden rolun silinmesi
             </summary>
